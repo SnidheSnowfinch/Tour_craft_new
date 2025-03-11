@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://kit.fontawesome.com/YOUR-KIT-ID.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="bootstrap/style.css">
+
+</head>
+
+<body>
+    <div class="d-login-div">
+   
+    <div class="left-section">
+        <p>
+            Tourkraft offers personalized, hassle-free tour planning services tailored to your preferences. 
+            Whether it’s a weekend getaway or an international adventure, we handle all the details, 
+            ensuring a seamless and memorable travel experience from start to finish.
+        </p>
+        <div class="social-icons">
+            <label class="icon-login"><i class="bi bi-telephone-fill"></i></label>
+            <label label class="icon-login">
+                <i class="bi bi-at"></i>
+
+            </label>
+            <label class="icon-login"><i class="bi bi-whatsapp"></i></label>
+            <label class="icon-login"><i class="bi bi-facebook"></i></label>
+            <label class="icon-login"><i class="bi bi-instagram"></i></label>
+            <label class="icon-login"><i class="bi bi-twitter"></i></label>
+        </div>
+    </div>
+
+    <div class="right-section">
+        <div class="login-container">
+           <img src="/bootstrap/images/logo.webp" alt="" class="login-logo">
+           <div class="login-div">
+           <label class="login-label" for="">Nice to see you Again</label>
+            <div class="input-group">
+                <label for="email">Login</label>
+                <input type="email" id="email" placeholder="Enter email or phone">
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <div class="w-100 position-relative">
+                <input type="password" id="password" placeholder="Enter password">
+                <i class="bi bi-eye-slash position-absolute top-50 end-0 translate-middle-y me-2" id="togglePassword" style="cursor: pointer;"></i>
+            </div>
+            </div>
+            <div class="remember-forgot">
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="Rememberme" checked>
+                <label class="form-check-label" for="Rememberme">Remember me</label>
+              </div>
+              <span><a href="">Forgot Password</a></span></div>
+            <!-- <div class="remember-forgot">
+                <label><input type="checkbox"> </label>
+                <a href="#">Forgot password?</a>
+            </div> -->
+            <button class="login-btn">Sign In</button>
+            <button class="google-btn"><img class="mx-2" src="bootstrap/images/google-pic.webp" alt="">Or sign in with Google</button>
+            <p class="register-link">Don't have an account? <a href="#">Sign Up now</a></p>
+        </div>
+    </div>
+    </div>
+</div>
+<script>
+    const togglePassword = document.getElementById('togglePassword');
+    const passwordInput = document.getElementById('password');
+
+    togglePassword.addEventListener('click', function () {
+        if (passwordInput.type === "password") {
+            passwordInput.type = "text";
+            this.classList.replace("bi-eye-slash", "bi-eye");
+        } else {
+            passwordInput.type = "password";
+            this.classList.replace("bi-eye", "bi-eye-slash");
+        }
+    });
+</script>
+
+
+
+</body>
+
+</html>
