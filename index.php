@@ -8,15 +8,119 @@
 
         </div>
         <div class="container mt-4">
-            <div class="row">
-                <div class="col-lg-3 col-md-4 d-pic-flex">
-                    <div class="d-pic-flex text-center">
-                        <img src="bootstrap/images/Group img.webp" alt=""  class="banner-img">
+            <div class="list-div">
+            <div class="destination-card">
+                                <div class="position-relative">
+                                    <img src="bootstrap/images/kerala.webp" alt="Kerala">
+                                    <div class="destination-name">KERALA</div>
+                                </div>
+                                <div class="details">
+                                    <span>6 days</span> <span>15 departures</span>
+                                    <label>50,846 guests traveled</label>
+                                </div>
+                            </div>
+                            <div class="destination-card">
+                                <div class="position-relative">
+                                    <img src="bootstrap/images/karnataka.webp" alt="Karnataka">
+                                    <div class="destination-name">KARNATAKA</div>
+                                </div>
+                                <div class="details">
+                                    <span>6 days</span> <span>15 departures</span>
+                                    <label>50,846 guests traveled</label>
+                                </div>
+                            </div>
+                            <div class="destination-card">
+                                <div class="position-relative">
 
-                    </div>
-                </div>
-                <div class="col-lg-9 col-md-8">
-                    <div class="row g-4">
+                                    <img src="bootstrap/images/Maharashtra.webp" alt="Karnataka">
+                                    <div class="destination-name">MAHARASHTRA</div>
+                                </div>
+                                <div class="details">
+                                    <span>6 days</span> <span>15 departures</span>
+                                    <label>50,846 guests traveled</label>
+                                </div>
+                            </div>
+                            <div class="destination-card">
+                                <div class="position-relative">
+
+                                    <img src="bootstrap/images/Rajasthan.webp" alt="Karnataka">
+                                    <div class="destination-name">RAJASTHAN</div>
+                                </div>
+                                <div class="details">
+                                    <span>6 days</span> <span>15 departures</span>
+                                    <label>50,846 guests traveled</label>
+                                </div>
+                            </div>
+                            <div class="destination-card">
+                                <div class="position-relative">
+
+                                    <img src="bootstrap/images/Utharagand.webp" alt="Karnataka">
+                                    <div class="destination-name">UTTARAKHAND</div>
+                                </div>
+                                <div class="details">
+                                    <span>6 days</span> <span>15 departures</span>
+                                    <label>50,846 guests traveled</label>
+                                </div>
+                            </div>
+                            <div class="destination-card">
+                                <div class="position-relative">
+
+                                    <img src="bootstrap/images/Himachal.webp" alt="Karnataka">
+                                    <div class="destination-name">HIMACHAL</div>
+                                </div>
+                                <div class="details">
+                                    <span>6 days</span> <span>15 departures</span>
+                                    <label>50,846 guests traveled</label>
+                                </div>
+                            </div>
+                           
+                            <div class="destination-card">
+                                <div class="position-relative">
+                                    <img src="bootstrap/images/Jammu Kashmir.webp" alt="Karnataka">
+                                    <div class="destination-name">JAMMU AND KASHMIR</div>
+                                </div>
+                                <div class="details">
+                                    <span>6 days</span> <span>15 departures</span>
+                                    <label>50,846 guests traveled</label>
+                                </div>
+                            </div>
+                       
+                        <div class="destination-card">
+                                <div class="position-relative">
+                                    <img src="bootstrap/images/Delhi.webp" alt="Karnataka">
+                                    <div class="destination-name">DELHI</div>
+                                </div>
+                                <div class="details">
+                                    <span>6 days</span> <span>15 departures</span>
+                                    <label>50,846 guests traveled</label>
+                                </div>
+                            </div>
+                            <div class="destination-card">
+                                <div class="position-relative">
+                                    <img src="bootstrap/images/goa.webp" alt="Karnataka">
+                                    <div class="destination-name">GOA</div>
+                                </div>
+                                <div class="details">
+                                    <span>6 days</span> <span>15 departures</span>
+                                    <label>50,846 guests traveled</label>
+                                </div>
+                            </div>
+                            <div class="destination-card">
+                                <div class="position-relative">
+                                    <img src="bootstrap/images/uttar-pradesh.webp" alt="Karnataka">
+                                    <div class="destination-name">UTTAR PRADESH</div>
+                                </div>
+                                <div class="details">
+                                    <span>6 days</span> <span>15 departures</span>
+                                    <label>50,846 guests traveled</label>
+                                </div>
+                            </div>
+                            
+            </div>
+            <!-- <div class="row">
+
+              
+                  
                         <div class="col-lg-3 col-md-6">
                             <div class="destination-card">
                                 <div class="position-relative">
@@ -125,10 +229,8 @@
                             </div>
                         </div>
 
-                    </div>
-                </div>
-
-            </div>
+               
+            </div> -->
 
         </div>
         <div class="curousel-div">
