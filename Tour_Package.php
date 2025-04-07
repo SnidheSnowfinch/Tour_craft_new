@@ -72,7 +72,7 @@
                 <div class="tour-card position-relative">
                     <div class="row">
                         <div class="col-lg-4 col-md-12 d-flex">
-                            <img src="bootstrap/images/nepal.webp" alt="" width="100%">
+                            <img class="img-fit" src="bootstrap/images/nepal.webp" alt="" width="100%">
 
                         </div>
                         <div class="col-lg-8 col-md-12">
@@ -102,7 +102,7 @@
                                 <a href="" class="text-decoration-none tour-link"><i class="bi bi-infinity mx-2"></i>All
                                     inclusive
                                     <i class="bi bi-info-circle mx-2"></i></a>
-                                <div class="tour-details">
+                                <div class="tour-details align-flex">
                                     <div class="tour-stats">
                                         <p><strong>Days</strong></p>
                                         <span><strong>8</strong></span>
@@ -140,7 +140,7 @@
                 <div class="tour-card position-relative">
                     <div class="row">
                         <div class="col-lg-4 col-md-12 d-flex">
-                            <img src="bootstrap/images/nepal.webp" alt="" width="100%">
+                            <img class="img-fit" src="bootstrap/images/nepal.webp" alt="" width="100%">
 
                         </div>
                         <div class="col-lg-8 col-md-12">
@@ -168,7 +168,7 @@
                                     inclusive
                                     <i class="bi bi-info-circle mx-2"></i></a>
 
-                                <div class="tour-details">
+                                <div class="tour-details align-flex">
                                     <div class="tour-stats">
                                         <p><strong>Days</strong></p>
                                         <span><strong>8</strong></span>

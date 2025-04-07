@@ -1,5 +1,4 @@
 <?php include 'includes/header.php'; ?>
-
     <div>
         <div class="image-section-main">
             <div class="text-box">
@@ -249,4 +248,4 @@
            </div> 
         </div>
     </div>
-    <?php include 'includes/footer.php';?>   
+<?php include 'includes/footer.php';?>

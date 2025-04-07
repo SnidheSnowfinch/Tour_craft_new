@@ -13,8 +13,8 @@
     </div>
     <div class="container my-4">
         <div class="filter-bar">
-            <div class="d-flex gap-2">
-                <select class="form-select">
+            <div class="d-phone-flex gap-2">
+               <div class="flex-gap"> <select class="form-select">
                     <option>Price</option>
                     <option>Low to High</option>
                     <option>High to Low</option>
@@ -24,8 +24,8 @@
                     <option>English</option>
                     <option>Hindi</option>
                     <option>Spanish</option>
-                </select>
-                <select class="form-select">
+                </select></div>
+               <div class="flex-gap"> <select class="form-select">
                     <option>Duration</option>
                     <option>Short (1-3 hrs)</option>
                     <option>Medium (3-6 hrs)</option>
@@ -36,7 +36,7 @@
                     <option>Morning</option>
                     <option>Afternoon</option>
                     <option>Evening</option>
-                </select>
+                </select></div>
             </div>
             <div>
                 <select class="form-select">
